@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="553.6" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.AdminOrderDetailsController">
+   <children>
+      <AnchorPane layoutX="429.0" prefHeight="122.0" prefWidth="1400.0" AnchorPane.bottomAnchor="432.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutY="32.0" prefHeight="58.0" prefWidth="1400.0" text="Order Details" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0">
+               <font>
+                  <Font name="Cambria" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox prefHeight="386.0" prefWidth="1253.0" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="76.0" AnchorPane.topAnchor="135.0">
+         <children>
+            <ScrollPane fx:id="scroll" prefHeight="386.0" prefWidth="1249.0">
+               <content>
+                  <VBox fx:id="orderDetailsVBox" prefHeight="382.0" prefWidth="1234.0" />
+               </content>
+            </ScrollPane>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

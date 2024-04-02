@@ -1,0 +1,71 @@
+.font-style {
+    -fx-font-family: "Cambria";
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+
+.font-style14 {
+    -fx-font-family: "Cambria";
+    -fx-font-weight: bold;
+    -fx-font-size: 14;
+}
+
+.font-style22 {
+    -fx-font-family: "Cambria";
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+}
+
+.search-box {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+}
+.transparent{
+-fx-background-color: rgba(0,0,0,0);
+}
+
+.search-button{ -fx-background-color: #828282;
+    -fx-background-radius: 30;
+}
+
+.right-bar{
+    -fx-background-color: #D3D3D3;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+
+.chosen-fruit-card{
+    -fx-background-color: #F16C31;
+    -fx-background-radius: 30;
+}
+
+.border {
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+}
+
+
+.comboBox{
+    -fx-background-color: rgba(255,255,255,0.3);
+    -fx-background-radius: 30;
+}
+
+.add-btn{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+}
+
+.card-anchor-pane{
+    -fx-background-color: #ffba95;
+    -fx-background-radius: 20;
+}
+
+.custom-color {
+    -fx-background-color: radial-gradient(center 50% 50%, radius 100%, rgba(112, 192, 255, 1) 0%, rgba(98, 153, 254, 1) 24%, rgba(123, 124, 255, 1) 49%, rgba(97, 124, 255, 1) 86%, rgba(36, 24, 255, 1) 100%);
+}
+.custom-color11 {
+    -fx-background-color: radial-gradient(circle, rgba(112, 192, 255, 1) 0%, rgba(98, 153, 254, 1) 24%, rgba(123, 124, 255, 1) 49%, rgba(97, 124, 255, 1) 86%, rgba(36, 24, 255, 1) 100%);
+}

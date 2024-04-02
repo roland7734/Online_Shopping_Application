@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="553.6" prefWidth="1400.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.ManufacturersDetailsController">
+   <children>
+      <AnchorPane layoutX="429.0" prefHeight="122.0" prefWidth="1400.0" AnchorPane.bottomAnchor="432.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" layoutY="32.0" prefHeight="58.0" prefWidth="1400.0" text="Manufacturers Details" AnchorPane.bottomAnchor="32.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="32.0">
+               <font>
+                  <Font name="Cambria" size="39.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <HBox prefHeight="342.0" prefWidth="1258.0" AnchorPane.bottomAnchor="76.0" AnchorPane.leftAnchor="71.0" AnchorPane.rightAnchor="71.0" AnchorPane.topAnchor="135.0">
+         <children>
+            <VBox prefHeight="434.0" prefWidth="1258.0">
+               <children>
+                  <HBox prefHeight="187.0" prefWidth="1258.0" style="-fx-background-color: #f3f3f3;">
+                     <children>
+                        <Pane prefHeight="50.0" prefWidth="86.0" />
+                        <Label prefHeight="50.0" prefWidth="119.0" text="Company Name">
+                           <font>
+                              <Font name="Cambria Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Pane prefHeight="50.0" prefWidth="166.0" />
+                        <Label prefHeight="50.0" prefWidth="66.0" text="Address">
+                           <font>
+                              <Font name="Cambria Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Pane prefHeight="50.0" prefWidth="206.0" />
+                        <Label prefHeight="50.0" prefWidth="73.0" text="Website">
+                           <font>
+                              <Font name="Cambria Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Pane prefHeight="56.0" prefWidth="181.0" />
+                        <Label prefHeight="50.0" prefWidth="117.0" text="Contact Email">
+                           <font>
+                              <Font name="Cambria Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Pane prefHeight="56.0" prefWidth="84.0" />
+                        <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="124.0" text="Phone Number">
+                           <font>
+                              <Font name="Cambria Bold" size="16.0" />
+                           </font>
+                        </Label>
+                        <Pane prefHeight="50.0" prefWidth="17.0" />
+                     </children>
+                  </HBox>
+                  <ScrollPane fx:id="scroll" prefHeight="418.0" prefWidth="1330.0">
+                     <content>
+                        <VBox fx:id="itemLayout" prefHeight="282.0" prefWidth="1238.0">
+                           <children>
+                              <HBox prefHeight="82.0" prefWidth="1212.0">
+                                 <children>
+                                    <Pane prefHeight="82.0" prefWidth="26.0" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="228.0" text="Samsung Electronics Co., Ltd." textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="82.0" prefWidth="68.0" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="167.0" text="123 Tech Street, Seoul, South Korea" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="82.0" prefWidth="99.0" />
+                                    <Label alignment="CENTER" prefHeight="82.0" prefWidth="174.0" text="www.homemastersolutions.com" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="82.0" prefWidth="86.0" />
+                                    <HBox />
+                                    <Pane prefHeight="82.0" prefWidth="10.0" />
+                                    <Label alignment="CENTER" prefHeight="82.0" prefWidth="180.0" text="info@homemastersolutions.com" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <Pane prefHeight="82.0" prefWidth="50.0" />
+                                    <Label alignment="CENTER" prefHeight="82.0" prefWidth="142.0" text="337-476-7890" textAlignment="CENTER">
+                                       <font>
+                                          <Font name="System Bold" size="16.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

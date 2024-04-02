@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="693.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.AddUpdateProductController">
+   <children>
+      <VBox layoutX="102.0" layoutY="106.0" prefHeight="81.0" prefWidth="487.0" AnchorPane.bottomAnchor="612.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="addUpdateLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="27.0" prefWidth="495.0" text="Update Product">
+               <font>
+                  <Font name="Cambria Bold" size="22.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox layoutX="41.0" layoutY="97.0" prefHeight="527.0" prefWidth="403.0">
+         <children>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Name">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nameTextField" prefHeight="36.0" prefWidth="403.0" promptText="NAME" style="\\: #FFF;" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Category">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="categoryComboBox" prefHeight="26.0" prefWidth="220.0">
+                     <VBox.margin>
+                        <Insets left="20.0" top="3.0" />
+                     </VBox.margin>
+                  </ComboBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Description">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="descriptionTextField" prefHeight="36.0" prefWidth="403.0" promptText="Description" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Price">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="priceTextField" prefHeight="36.0" prefWidth="403.0" promptText="799.99" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Stock Quantity">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="quantityTextField" prefHeight="36.0" prefWidth="403.0" promptText="302" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Brand">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="brandComboBox" prefHeight="26.0" prefWidth="220.0">
+                     <VBox.margin>
+                        <Insets left="20.0" top="3.0" />
+                     </VBox.margin>
+                  </ComboBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Manufacturer">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="manufacturerComboBox" prefWidth="220.0">
+                     <VBox.margin>
+                        <Insets left="20.0" top="3.0" />
+                     </VBox.margin>
+                  </ComboBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Image">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <VBox>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <children>
+                        <HBox>
+                           <children>
+                              <Button fx:id="uploadButton" mnemonicParsing="false" onAction="#onUploadButtonClick" prefHeight="28.0" prefWidth="157.0" stylesheets="@Styles/Styles.css" text="Upload">
+                                 <font>
+                                    <Font name="Cambria Bold" size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets left="20.0" top="3.0" />
+                                 </HBox.margin>
+                              </Button>
+                              <TextField fx:id="urlTextField" editable="false" prefHeight="36.0" prefWidth="378.0" promptText="URL" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                                 <font>
+                                    <Font name="Cambria Bold" size="18.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+      <Button fx:id="addUpdateButton" layoutX="291.0" layoutY="635.0" mnemonicParsing="false" onAction="#onAddUpdateButtonClick" prefHeight="43.0" prefWidth="138.0" style="-fx-background-color: #1025d0;" styleClass="add-btn" text="Update" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="60.0">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="69.0" layoutY="635.0" mnemonicParsing="false" onAction="#onCancelButtonClick" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #1025d0;" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="60.0">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

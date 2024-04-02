@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="82.0" prefWidth="1212.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.ManufacturerItemController">
+   <children>
+      <Pane prefHeight="82.0" prefWidth="26.0" />
+      <Label fx:id="companyNameLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="228.0" text="Samsung Electronics Co., Ltd." textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="82.0" prefWidth="68.0" />
+      <Label fx:id="addressLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="82.0" prefWidth="167.0" text="123 Tech Street, Seoul, South Korea" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="82.0" prefWidth="99.0" />
+      <Label fx:id="websiteLabel" alignment="CENTER" prefHeight="82.0" prefWidth="174.0" text="www.homemastersolutions.com" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="82.0" prefWidth="86.0" />
+      <HBox />
+      <Pane prefHeight="82.0" prefWidth="10.0" />
+      <Label fx:id="emailLabel" alignment="CENTER" prefHeight="82.0" prefWidth="180.0" text="info@homemastersolutions.com" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Pane prefHeight="82.0" prefWidth="50.0" />
+      <Label fx:id="phoneLabel" alignment="CENTER" prefHeight="82.0" prefWidth="142.0" text="337-476-7890" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>

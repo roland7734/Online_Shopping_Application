@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox styleClass="border" stylesheets="@Styles/Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.OrderItemController">
+   <children>
+      <VBox fx:id="orderVBox" fillWidth="false" prefHeight="206.0" prefWidth="1234.0">
+         <children>
+            <HBox fx:id="hbox1" prefHeight="45.0" prefWidth="1238.0" style="-fx-background-color: #d3d3d5;" VBox.vgrow="NEVER">
+               <children>
+                  <Pane prefHeight="46.0" prefWidth="60.0" />
+                  <Label prefHeight="55.0" prefWidth="66.0" text="Order ID">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="108.0" />
+                  <Label prefHeight="55.0" prefWidth="37.0" text="Date">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="136.0" />
+                  <Label prefHeight="55.0" prefWidth="66.0" text="Address">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="110.0" />
+                  <Label prefHeight="46.0" prefWidth="76.0" text="Total Sum">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="35.0" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="114.0" text="Discount Percentage" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="19.0" />
+                  <Label prefHeight="46.0" prefWidth="110.0" text="Total Amount" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="14.0" />
+                  <Label prefHeight="55.0" prefWidth="118.0" text="Payment Method" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="46.0" prefWidth="56.0" />
+                  <Label prefHeight="55.0" prefWidth="47.0" text="Status">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox fx:id="hbox2" prefHeight="57.0" prefWidth="1238.0" VBox.vgrow="NEVER">
+               <children>
+                  <Pane prefHeight="58.0" prefWidth="42.0" />
+                  <Label fx:id="orderIdLabel" prefHeight="55.0" prefWidth="100.0" text="STX1568535">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="52.0" />
+                  <Label fx:id="dateLabel" prefHeight="55.0" prefWidth="117.0" text="2023-12-28 21:05:35.275" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="30.0" />
+                  <Label fx:id="addressLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="250.0" prefWidth="190.0" text="Hungary, Boloton, Strawberries Street, nr. 365" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="54.0" />
+                  <Label fx:id="totalSumLabel" prefHeight="55.0" prefWidth="85.0" text="\$2999.99">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="50.0" />
+                  <Label fx:id="discountLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="60.0" text="33%">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="58.0" />
+                  <Label fx:id="amountLabel" prefHeight="55.0" prefWidth="90.0" text="\$1896.07">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="42.0" />
+                  <Label fx:id="paymentMethodLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="76.0" text="Cash on Delivery" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="61.0" />
+                  <Label fx:id="statusLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="55.0" prefWidth="81.0" text="Out for Delivery" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox fx:id="hbox3" prefHeight="45.0" prefWidth="1238.0" style="-fx-background-color: #d3d3d5;" VBox.vgrow="NEVER">
+               <children>
+                  <Pane prefHeight="58.0" prefWidth="68.0" />
+                  <Label prefHeight="55.0" prefWidth="50.0" text="Image">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="233.0" />
+                  <Label prefHeight="55.0" prefWidth="117.0" text="Product Name">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="273.0" />
+                  <Label prefHeight="55.0" prefWidth="94.0" text="Quantity">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="198.0" />
+                  <Label prefHeight="55.0" prefWidth="70.0" text="Subtotal">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Pane prefHeight="58.0" prefWidth="21.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>

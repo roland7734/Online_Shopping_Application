@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="464.0" styleClass="card-anchor-pane" stylesheets="@Styles/Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.CardPaymentController">
+   <children>
+      <ImageView fitHeight="326.0" fitWidth="320.0" layoutX="72.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BackGroundImages/CREDIT_CARD.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="31.2" layoutY="282.0" prefHeight="243.0" prefWidth="403.0" AnchorPane.leftAnchor="31.0" AnchorPane.rightAnchor="30.0">
+         <children>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Card Name">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cardNameTextField" prefHeight="36.0" prefWidth="403.0" promptText="SURNAME NAME-NAME" style="\\: #FFF;" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Card Number">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cardNumberTextField" prefHeight="36.0" prefWidth="403.0" promptText="2344-5667-5643-4675" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Expiry Date">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cardExpiryDateTextField" prefHeight="36.0" prefWidth="403.0" promptText="MM/YY" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="CVV">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cardCVVTextField" prefHeight="36.0" prefWidth="403.0" promptText="123" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+      <Label layoutX="151.0" layoutY="220.0" text="Card Payment">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="payButton" layoutX="232.0" layoutY="558.0" mnemonicParsing="false" onAction="#onPayButtonClick" prefHeight="43.0" prefWidth="210.0" style="-fx-background-color: #1025d0;" styleClass="add-btn" text="Process Payment" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="50.0">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="51.0" layoutY="558.0" mnemonicParsing="false" onAction="#onCancelButtonClick" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #1025d0;" styleClass="add-btn" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="50.0">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

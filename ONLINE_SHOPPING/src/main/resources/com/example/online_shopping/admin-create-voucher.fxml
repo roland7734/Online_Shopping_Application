@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="653.0" prefWidth="464.0" styleClass="card-anchor-pane" stylesheets="@Styles/Styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.online_shopping.Controllers.AdminCreateVoucherController">
+   <children>
+      <VBox layoutX="30.0" layoutY="289.0" prefHeight="243.0" prefWidth="403.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="31.599999999999966">
+         <children>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Voucher Code">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="voucherCodeTextField" prefHeight="36.0" prefWidth="403.0" promptText="AC4D54" style="\\: #FFF;" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Discount Percentage">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="voucherDicountTextField" prefHeight="36.0" prefWidth="403.0" promptText="20" styleClass="transparent" stylesheets="@Styles/Styles.css">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="Start Date">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="voucherStartDatePicker">
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                  </DatePicker>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox prefHeight="56.0" prefWidth="403.0" style="-fx-border-color: #000;">
+               <children>
+                  <Label text="End Date">
+                     <font>
+                        <Font name="Cambria Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="voucherEndDatePicker">
+                     <VBox.margin>
+                        <Insets left="20.0" />
+                     </VBox.margin>
+                  </DatePicker>
+               </children>
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </VBox>
+         </children>
+      </VBox>
+      <Label alignment="CENTER" layoutY="212.0" prefHeight="31.0" prefWidth="464.0" text="Add Voucher" textAlignment="CENTER">
+         <font>
+            <Font name="Cambria Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="createVoucherButton" layoutX="223.0" layoutY="555.0" mnemonicParsing="false" onAction="#onCreateVoucherButtonClick" prefHeight="43.0" prefWidth="178.0" style="-fx-background-color: #1025d0;" styleClass="add-btn" text="Create Voucher" textFill="WHITE" AnchorPane.bottomAnchor="20.799999999999955" AnchorPane.rightAnchor="62.60000000000002">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelButton" layoutX="63.0" layoutY="555.0" mnemonicParsing="false" onAction="#onCancelButtonClick" prefHeight="43.0" prefWidth="100.0" style="-fx-background-color: #1025d0;" styleClass="add-btn" text="Cancel" textFill="WHITE" AnchorPane.bottomAnchor="20.799999999999955" AnchorPane.leftAnchor="63.0">
+         <font>
+            <Font name="Cambria Bold" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="174.0" fitWidth="278.0" layoutX="98.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@BackGroundImages/voucher_card.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
