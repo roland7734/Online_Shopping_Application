@@ -13,42 +13,69 @@ The Home Page contains a menu with the following buttons: Home Page, Products, C
 
 ### Navigation
 - **Home Page:** Main landing page of the online shopping site.
+
 ![User Home Page](screenshots/user-home-page.png)
+
 - **Products:** Alphabetical list of all items available.
+
 ![Products](screenshots/products.png)
+
 - **Category:** Select from available shopping market sections.
+
 ![Categories](screenshots/categories.png)
+
 - **Cart:** View and manage products in the cart.
+
 ![Cart](screenshots/cart.png)
+
 - **Orders:** View order history and details.
+
 ![Orders](screenshots/orders..png)
+
 - **Log Out:** Log out of the application.
 
 ## Shopping Flow
 1. **Products:** Users can browse products and add them to the cart.
 2. **Cart:** Review products, adjust quantities, and proceed to checkout.
-![Place Order](screenshots/place-order.png)
+
+![Place Order](screenshots/place-order1.png)
+
 3. **Checkout:** Enter delivery address, select payment method, apply vouchers, and finalize the order.
-![Card](screenshots/card.png)
+
+![Card](screenshots/card1.png)
+
 
 ## Admin Interface
 Admins have access to advanced options including:
 - **Home Page**
+
 ![Admin Home Page](screenshots/admin-home-page.png)
+
 - **Products:** View, update, or remove items.
+
 ![Products](screenshots/admin-products.png)
-- **Category**
+
 - **Stock:** View and manage product details.
+
 ![Stock](screenshots/stock.png)
+
 - **Orders:** Manage order status.
+
 ![Orders](screenshots/admin-orders.png)
+
 - **Add Product:** Add new items to the stock.
-![Update Or Add Product](screenshots/update-product.png)
+
+![Update Or Add Product](screenshots/update-product1.png)
+
 - **Vouchers:** Create and manage discount vouchers.
+
 ![Vouchers](screenshots/vouchers.png)
+
 - **Manufacturers:** View manufacturing partners' details.
+
 ![Manufacturers](screenshots/manufacturers.png)
-- **Log Out**
+
+
 
 ## Order Management
 Order status changes include: Pending, Order Confirmed, Shipped, Out for Delivery, and Delivered.
@@ -61,10 +88,11 @@ Admins can create, activate, deactivate, and view details of discount vouchers.
 
 ## Login and Registration
 The application features user and admin login options.
-![Start Page](screenshots/start-page.png)
-![Login](screenshots/user-login.png)
-![Registration](screenshots/registration.png)
 
-## README
-For detailed instructions on setting up and running the application, please refer to the README.md file.
+![Start Page](screenshots/start-page1.png)
+
+![Login](screenshots/user-login1.png)
+
+![Registration](screenshots/registration1.png)
+
 
